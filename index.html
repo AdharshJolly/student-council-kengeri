@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Council, Kengeri</title>
+
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/common-styles.css" type="text/css" rel="stylesheet" />
+
+    <link href="css/common-responsive.css" type="text/css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="css/bootstrap-touch-slider.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link href="css/nav-bars_1.css" type="text/css" rel="stylesheet" />
+
+    <link href="css/student-c-styles.css" rel="stylesheet" />
+    <link
+      href="css/student-c-responsive.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <link href="css/lightgallery.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="headerr" id="myHeader">
+      <div class="to-p-hde-r">
+        <section id="header-logo">
+          <div class="container-fluid max-w">
+            <div class="logo-content">
+              <div
+                class="col-lg-2 col-sm-4"
+                style="margin-right: auto; min-width: fit-content !important"
+              >
+                <a href="index.html">
+                  <img src="images/logo.jpg" class="img-responsive main-logo"
+                /></a>
+              </div>
+              <div
+                class="col-lg-2 col-sm-4"
+                style="margin-left: auto; min-width: fit-content !important"
+              >
+                <a
+                  href="index.html"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    src="images/student-coucil-logo.png"
+                    class="img-responsive main-logo"
+                    style="margin: 0"
+                  />
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                    "
+                  >
+                    <h3 style="text-wrap: nowrap; margin: 0">
+                      Student Council
+                    </h3>
+                    <h4 style="margin: 0">Kengeri</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="col-lg-9 col-sm-9" style="max-width: fit-content">
+                <div class="  ">
+                  <div id="cssmenu">
+                    <ul>
+                      <li>
+                        <a href="#aboutNav">
+                          <i class="fa-solid fa-circle-info"></i>
+                          <span class="txt-top-mnu"> About Us </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#membersNav">
+                          <i class="fa-solid fa-person"></i>
+                          <span class="txt-top-mnu"> Council Members </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#galleryNav">
+                          <i class="fa-solid fa-image"></i>
+                          <span class="txt-top-mnu"> Gallery </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fa-solid fa-comment"></i>
+                          <span class="txt-top-mnu"> News </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="updates"></section>
+
+        <style>
+          /* Ensure the body and html elements allow scrolling */
+          html,
+          body {
+            height: 100%;
+            overflow: auto;
+          }
+
+          /* Hide .homeContent and show .homeContent_mobile on iPads */
+          @media (min-width: 768px) and (max-width: 1024px) {
+            .homeContent {
+              display: none;
+            }
+            .homeContent_mobile {
+              display: block;
+            }
+          }
+
+          /* For screens smaller than 768px (e.g., smartphones) */
+          @media (max-width: 767px) {
+            .homeContent {
+              display: none;
+            }
+            .homeContent_mobile {
+              display: block;
+            }
+          }
+
+          /* For screens 1025px and larger (e.g., desktops) */
+          @media (min-width: 1025px) {
+            .homeContent {
+              display: block;
+            }
+            .homeContent_mobile {
+              display: none;
+            }
+          }
+        </style>
+
+        <section id="main-banner-names">
+          <div class="fll-wth-bnnr">
+            <div class="homeContent">
+              <div class="slider-left1">
+                <div
+                  id="bootstrap-touch-slider"
+                  class="carousel bs-slider control-round indicators-line"
+                  data-ride="carousel"
+                  data-pause="hover"
+                >
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img
+                        src="images/banner/1.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="images/banner/2.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="images/banner/3.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="images/banner/4.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="homeContent_mobile">
+              <div class="slider-left1">
+                <div class="inner-pages-brd-crmp">
+                  <div class="inne-hdd8">
+                    <h1>Student Council, Kengeri</h1>
+                  </div>
+                </div>
+                <div
+                  id="bootstrap-touch-slider"
+                  class="carousel bs-slider control-round indicators-line"
+                  data-ride="carousel"
+                  data-pause="hover"
+                >
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img
+                        src="images/banner/1.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="images/banner/2.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="images/banner/3.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+
+                    <div class="item">
+                      <img
+                        src="images/banner/4.png"
+                        alt=""
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <img src="images/bg2.png" class="img-responsive strip-banner" />
+          <div class="container" id="aboutNav">
+            <div class="col-sm-12">
+              <h1 class="serch-hd1">About</h1>
+              <h1 class="serch-hd2" style="padding-left: 60px">Us</h1>
+            </div>
+            <div class="col-sm-12">
+              <div class="abot-txt-innr">
+                <h4 style="font-weight: 400">
+                  The Student Council exists to enhance the overall graduate
+                  experience at CHRIST (Deemed to be University) by promoting
+                  the general welfare of the student body. It creates new
+                  programmes and initiatives to provide opportunities for growth
+                  and interaction, and communicating with the Administration and
+                  Faculty on behalf of students.<br /><br />The Student Council
+                  aims to imbibe and inculcate the Vision, Mission and Core
+                  Values of the University - to provide constructive feedback on
+                  various aspects of campus life, academic programs, general
+                  discipline, library facilities, maintenance of the campus and
+                  other student service facilities; to assess and improve the
+                  potential for student placements and facilitate internship; to
+                  assist the anti-ragging committee to curb the menace of
+                  ragging completely; to identify and suggest methods of
+                  improving student life and student conduct and discipline; to
+                  suggest and implement student projects for holistic
+                  development; to identify, assess, evaluate and suggest the
+                  student perspectives in the development of Arts and Culture,
+                  Sports and Games, and other co-curricular/extracurricular
+                  activities including student participation; to assist student
+                  communities and Centres like CSA, NCC, SWO, CAPS, Peer
+                  Education Program, Cultural team, Sports and Games, etc.; and
+                  to help interlink students, faculty, staff and management of
+                  the University effectively to forge an academic community.<br /><br />The
+                  Student Council is led by the University Level Student Council
+                  (USC) which is the apex body, supported by the School-Level
+                  Student Council (SSC). The University Student Council consists
+                  of 64 students who represent various Departments and Centres
+                  of the University.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <br /><br />
+
+        <div
+          class="site-all-content"
+          id="brd-crmp-depp_new"
+          style="scroll-margin-top: 65px !important"
+        >
+          <section id="mentor-wrpr-caps" style="background: #fff">
+            <div class="container">
+              <div id="comn-hd-r">
+                <div class="row" id="membersNav">
+                  <div class="col-sm-12">
+                    <h1 class="serch-hd1">Council</h1>
+                    <h1 class="serch-hd2" style="padding-left: 73px">
+                      Members
+                    </h1>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div id="council-members"></div>
+            </div>
+          </section>
+
+          <section id="photo-gallry" style="background: #fff">
+            <div class="container position-relative">
+              <div class="search-heddng">
+                <div class="row" id="galleryNav">
+                  <div class="col-sm-6">
+                    <h1 class="serch-hd1">Photo</h1>
+                    <h1 class="serch-hd2" style="padding-left: 74px">
+                      Gallery
+                    </h1>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4 class="mor-left-bordr">
+                      <a href="gallery.html">Show all Gallery</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="panel-body" style="padding: 0">
+                <div class="tab-content">
+                  <div class="tab-pane active" id="tab1">
+                    <div class="demo-gallery">
+                      <ul id="lightgallery" class="list-unstyled"></ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hme-glry-btnd">
+                <div class="explr-bttns">
+                  <a href="gallery.html" class="btn btn-default expl-bttns">
+                    View All
+                  </a>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/common.js"></script>
+    <script src="js/nav-bars-script_1.js"></script>
+
+    <script src="js/bootstrap-touch-slider.js"></script>
+    <script type="text/javascript">
+      $("#bootstrap-touch-slider").bsTouchSlider();
+    </script>
+
+    <script src="js/main-page-imageLoader.js"></script>
+    <script src="js/council-members.js"></script>
+
+    <script src="js/lightgallery-all.min.js"></script>
+    <script type="text/javascript">
+      setTimeout(() => {
+        $(document).ready(function () {
+          $("#lightgallery").lightGallery();
+        });
+      }, 2000);
+    </script>
+  </body>
+</html>

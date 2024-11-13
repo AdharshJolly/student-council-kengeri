@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Dr. Kishore Selva Babu",
+    "position": "Director, Student Council",
+    "email": "kishore.babu@christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Dr. Kishore Selva Babu.png"
+  },
+  {
+    "name": "Dr. Vinay Jha Pillai",
+    "position": "Faculty Coordinator",
+    "email": "vinay.pillai@christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Dr. Vinay Jha Pillai.png"
+  },
+  {
+    "name": "Dr. Devika Menon M K",
+    "position": "Faculty Coordinator",
+    "email": "devika.menon@christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Dr. Devika Menon M K.png"
+  },
+  {
+    "name": "Riya DSouza",
+    "position": "USC - School of Enginnering and Technology",
+    "email": "riya.dsouza@btech.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Riya D_Souza.png"
+  },
+  {
+    "name": "M Manoj Reddy",
+    "position": "USC - School of Enginnering and Technology",
+    "email": "m.manoj@btech.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/M Manoj Reddy.png"
+  },
+  {
+    "name": "Christal Biju",
+    "position": "USC - School of Enginnering and Technology",
+    "email": "christal.biju@btech.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Christal Biju.png"
+  },
+  {
+    "name": "Tanya Jaiswal",
+    "position": "USC - School of Architecture",
+    "email": "tanya.jaiswal@arch.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Tanya Jaiswal.png"
+  },
+  {
+    "name": "Namrata Prem",
+    "position": "USC - School of Psychological Sciences",
+    "email": "namrata.prem@psyh.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Namrata Prem.png"
+  },
+  {
+    "name": "Shreya Bhatia",
+    "position": "USC - School of Business and Management UG",
+    "email": "shreya.bhatia@bba.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Shreya Bhatia.png"
+  },
+  {
+    "name": "Sanin Fariz",
+    "position": "USC - School of Business and Management PG",
+    "email": "sanin.fariz@mba.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Sanin Fariz.png"
+  },
+  {
+    "name": "Yasha Malu",
+    "position": "USC - School of Business and Management PG",
+    "email": "yasha.malu@mba.christuniversity.in",
+    "imageSrc": "/images/profiles/USCs and Coordinators/Yasha Malu.png"
+  }
+]
