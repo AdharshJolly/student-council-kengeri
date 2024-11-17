@@ -1,4 +1,4 @@
-fetch("/json/main-page-imageLoader.json")
+fetch("/json/main-page-galleryLoader.json")
   .then(function (response) {
     return response.json();
   })

@@ -195,9 +195,16 @@
   padding-right: 10px;
   padding-bottom: 10px;
   background-color: white;
+  margin-top: 10px;
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .logo-content {
     display: block;
+  }
+
+  .logo-content div:nth-child(2) {
+    margin-top: 5px;
   }
 }
 

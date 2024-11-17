@@ -8894,3 +8894,9 @@ td {
 #for-img-slider .bnnr-pp-txt-box h4 {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    padding-top: 200px;
+  }
+}

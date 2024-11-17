@@ -202,6 +202,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 .mentor-itm-mmg-txt h4 {
   font-size: 20px;
